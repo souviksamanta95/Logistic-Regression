@@ -93,10 +93,6 @@ specificity(testData$cross_sell, predicted_test, threshold = optCutOff)
 
 
 # ROC: Receiver Operating Characteristics Curve: 
-#  mark more of actual 1's as positives and lesser of actual 0's as 1's. 
-# So for a good model, the curve should rise steeply, 
-# indicating that the TPR (Y-Axis) increases faster than the FPR (X-Axis) as the cutoff score decreases. 
-# Greater the area under the ROC curve, better the predictive ability of the model.
 plotROC(trainingData$cross_sell, predicted_training)
 plotROC(testData$cross_sell, predicted_test)
 
