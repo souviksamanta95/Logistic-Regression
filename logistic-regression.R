@@ -1,5 +1,4 @@
 # import the bank.csv data from the working directory
-setwd("D:/Analytics/Insight/Blog/Logistic Regresion")
 data <- read.csv("bank.csv")
 head(data)
 # Checking the structure of the data
